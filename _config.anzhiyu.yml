@@ -134,7 +134,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://i.mji.rip/2025/10/23/33d665ae063b42274a77fb2529ccca81.jpeg
+  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
   effect: false
 
 # Disable all banner image
@@ -153,10 +153,10 @@ cover:
   archives_enable: true
   # the position of cover in home page (封面显示的位置)
   # left/right/both
-  position: both
+  position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    # - https://i.mji.rip/2025/10/23/8b64b6a12152004ccb2eafbd7dd0e6a5.webp
+    # - /img/default_cover.jpg
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
@@ -186,15 +186,15 @@ post_meta:
 
 # 主色调相关配置
 mainTone:
-  enable: true # true or false 文章是否启用获取图片主色调
-  mode: colorthief # colorthief/cdn/api/both colorthief模式为前端获取图片主色调，cdn模式为图片url+imageAve参数获取主色调，api模式为请求API获取主色调，both模式会先请求cdn参数，无法获取的情况下将请求API获取，可以在文章内配置main_color: '#3e5658'，使用十六进制颜色，则不会请求colorthief/cdn/api/both获取主色调，而是直接使用配置的颜色
+  enable: false # true or false 文章是否启用获取图片主色调
+  mode: api # colorthief/cdn/api/both colorthief模式为前端获取图片主色调，cdn模式为图片url+imageAve参数获取主色调，api模式为请求API获取主色调，both模式会先请求cdn参数，无法获取的情况下将请求API获取，可以在文章内配置main_color: '#3e5658'，使用十六进制颜色，则不会请求colorthief/cdn/api/both获取主色调，而是直接使用配置的颜色
   # 项目地址：https://github.com/anzhiyu-c/img2color-go
   api: https://img2color-go.vercel.app/api?img= # mode为api时可填写
   cover_change: true # 整篇文章跟随cover修改主色调
 
 # wordcount (字数统计)
 wordcount:
-  enable: true
+  enable: false
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -227,7 +227,7 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  location: 昆明
+  location: 长沙
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
   avatarSinks: false # hover时头像下沉
@@ -239,12 +239,12 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://i.mji.rip/2025/10/23/791d9cb52d74bb614de66cdc37d10344.jpeg
+    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
       link:
-      text: 微信赞助
-    - img: https://i.mji.rip/2025/10/23/cbcb3d681abf708b15721b80ea836dec.jpeg
+      text: 微信
+    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
       link:
-      text: 支付宝赞助
+      text: 支付宝
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -420,12 +420,12 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2024
+    since: 2020
   custom_text:
   runtime:
-    enable: true
-    launch_time: 12/01/2024 00:00:00 # 网站上线时间
-    work_img: https://i.mji.rip/2025/10/23/8f296cb0dbbf72944c3e7def10e262d0.png
+    enable: false
+    launch_time: 04/01/2021 00:00:00 # 网站上线时间
+    work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     work_description: 距离月入25k也就还差一个大佬带我~
     offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
     offduty_description: 下班了就该开开心心的玩耍，嘿嘿~
