@@ -557,6 +557,7 @@ footer:
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
 baidu_analytics: 
+  
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
@@ -1236,15 +1237,7 @@ inject:
   head:
     # 自定义css
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
-    - <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?d5dd71553aed30c79586d215c5ce2620";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-      </script>
+
 
 
   bottom:
