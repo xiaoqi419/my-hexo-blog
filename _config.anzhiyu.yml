@@ -156,7 +156,7 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    - https://i.mji.rip/2025/10/23/8b64b6a12152004ccb2eafbd7dd0e6a5.webp
+    # - https://i.mji.rip/2025/10/23/8b64b6a12152004ccb2eafbd7dd0e6a5.webp
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
