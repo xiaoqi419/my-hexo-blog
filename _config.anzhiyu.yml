@@ -423,7 +423,7 @@ footer:
     since: 2024
   custom_text:
   runtime:
-    enable: false
+    enable: true
     launch_time: 04/19/2024 00:00:00 # 网站上线时间
     work_img: https://i.mji.rip/2025/10/23/8f296cb0dbbf72944c3e7def10e262d0.png
     work_description: 距离月入25k也就还差一个大佬带我~
