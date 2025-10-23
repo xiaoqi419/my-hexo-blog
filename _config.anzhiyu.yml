@@ -134,7 +134,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: https://i.mji.rip/2025/10/23/33d665ae063b42274a77fb2529ccca81.jpeg
   effect: false
 
 # Disable all banner image
@@ -153,10 +153,10 @@ cover:
   archives_enable: true
   # the position of cover in home page (封面显示的位置)
   # left/right/both
-  position: left
+  position: both
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    # - /img/default_cover.jpg
+    - /img/default_cover.jpg
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
