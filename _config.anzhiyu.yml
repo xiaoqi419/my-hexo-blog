@@ -453,7 +453,7 @@ footer:
         shields: https://img.shields.io/badge/%E6%BB%87ICP%E5%A4%87-2023000461%E5%8F%B7--1-0078D4?style=flat-square&logo=internet-explorer&logoColor=white
         message: 滇ICP备2023000461号-1
   socialBar:
-    enable: false
+    enable: true
     centerImg:
     left:
       - title: email
