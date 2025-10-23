@@ -456,9 +456,9 @@ footer:
     enable: false
     centerImg:
     left:
-      # - title: email
-      #   link: mailto:anzhiyu-c@qq.com
-      #   icon: anzhiyu-icon-envelope
+      - title: email
+        link: mailto:pekilovex@gmail.com
+        icon: anzhiyu-icon-envelope
       # - title: 微博
       #   link: https://weibo.com/u/6378063631
       #   icon: anzhiyu-icon-weibo
