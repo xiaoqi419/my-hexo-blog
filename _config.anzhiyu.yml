@@ -153,7 +153,7 @@ cover:
   archives_enable: true
   # the position of cover in home page (封面显示的位置)
   # left/right/both
-  position: left
+  position: both
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
     # - /img/default_cover.jpg
@@ -239,12 +239,12 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
+    - img: https://i.mji.rip/2025/10/23/791d9cb52d74bb614de66cdc37d10344.jpeg
       link:
-      text: 微信
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
+      text: 微信赞助
+    - img: https://i.mji.rip/2025/10/23/cbcb3d681abf708b15721b80ea836dec.jpeg
       link:
-      text: 支付宝
+      text: 支付宝赞助
 
 # Post edit
 # Easily browse and edit blog source code online.
