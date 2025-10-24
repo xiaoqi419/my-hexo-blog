@@ -386,16 +386,16 @@ giscus:
 
 # Chat Button [recommend]
 # It will create a button in the bottom right corner of website, and hide the origin button
-chat_btn: false
+chat_btn: true
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
-chat_hide_show: false
+chat_hide_show: true
 
 # chatra
 # https://chatra.io/
 chatra:
-  enable: false
-  id:
+  enable: true
+  id: Lveng4cPNRQDYz5ho
 
 # tidio
 # https://www.tidio.com/
