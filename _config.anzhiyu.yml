@@ -788,7 +788,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://i.mji.rip/2025/10/23/33d665ae063b42274a77fb2529ccca81.jpeg # 自定加载动画义头像
+  avatar: https://oss.ojason.top/hexo-blog/20251023-155856.jpg # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
