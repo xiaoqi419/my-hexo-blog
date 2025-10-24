@@ -1056,13 +1056,13 @@ home_top:
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: 大学
-      path: /categories/大学生涯/
+    - name: 生活
+      path: /categories/生活/
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
-    - name: 生活
-      path: /categories/生活日常/
+    - name: 科技
+      path: /categories/科技/
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
@@ -1075,7 +1075,7 @@ home_top:
     tips: 爱能克服远距离
     title: 多远都要在一起
     image: https://i.mji.rip/2025/10/23/8b64b6a12152004ccb2eafbd7dd0e6a5.webp
-    link: https://blog.ojason.top/
+    link: https://www.ojason.top/
 
 # 朋友圈配置
 friends_vue:
