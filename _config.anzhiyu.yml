@@ -1090,7 +1090,7 @@ universe:
 
 # 页面卡片顶部气泡升起效果
 bubble:
-  enable: false
+  enable: true
 
 #  控制台打印信息
 console:
@@ -1149,33 +1149,33 @@ ptool:
 
 # 欢迎语配置
 greetingBox:
-  enable: false #开启后必须配置下面的list对应的时间段，不然会出现小白条
+  enable: true #开启后必须配置下面的list对应的时间段，不然会出现小白条
   default: 晚上好👋
   list:
-    # - greeting: 晚安😴
-    #   startTime: 0
-    #   endTime: 5
-    # - greeting: 早上好鸭👋, 祝你一天好心情！
-    #   startTime: 6
-    #   endTime: 9
-    # - greeting: 上午好👋, 状态很好，鼓励一下～
-    #   startTime: 10
-    #   endTime: 10
-    # - greeting: 11点多啦, 在坚持一下就吃饭啦～
-    #   startTime: 11
-    #   endTime: 11
-    # - greeting: 午安👋, 宝贝
-    #   startTime: 12
-    #   endTime: 14
-    # - greeting: 🌈充实的一天辛苦啦！
-    #   startTime: 14
-    #   endTime: 18
-    # - greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
-    #   startTime: 19
-    #   endTime: 19
-    # - greeting: 晚上好👋, 在属于自己的时间好好放松😌~
-    #   startTime: 20
-    #   endTime: 24
+    - greeting: 晚安😴
+      startTime: 0
+      endTime: 5
+    - greeting: 早上好鸭👋, 祝你一天好心情！
+      startTime: 6
+      endTime: 9
+    - greeting: 上午好👋, 状态很好，鼓励一下～
+      startTime: 10
+      endTime: 10
+    - greeting: 11点多啦, 在坚持一下就吃饭啦～
+      startTime: 11
+      endTime: 11
+    - greeting: 午安👋, 宝贝
+      startTime: 12
+      endTime: 14
+    - greeting: 🌈充实的一天辛苦啦！
+      startTime: 14
+      endTime: 18
+    - greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
+      startTime: 19
+      endTime: 19
+    - greeting: 晚上好👋, 在属于自己的时间好好放松😌~
+      startTime: 20
+      endTime: 24
 
 # 文章顶部ai摘要
 post_head_ai_description:
@@ -1201,7 +1201,7 @@ accesskey:
 
 # 友情链接顶部相关配置
 linkPageTop:
-  enable: false
+  enable: true
   title: 与数百名博主无限进步
   # 添加博主友链的评论自定义格式
   addFriendPlaceholder: "昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：\n"
@@ -1226,8 +1226,8 @@ peoplecanvas:
 # 动效
 dynamicEffect:
   postTopWave: true # 文章顶部波浪效果
-  postTopRollZoomInfo: false # 文章顶部滚动时缩放
-  pageCommentsRollZoom: false # 非文章页面评论滚动时缩放显示（仅仅Twikoo生效）
+  postTopRollZoomInfo: true  # 文章顶部滚动时缩放
+  pageCommentsRollZoom: true  # 非文章页面评论滚动时缩放显示（仅仅Twikoo生效）
 
 # Inject
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
