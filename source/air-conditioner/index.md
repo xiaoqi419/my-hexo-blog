@@ -8,6 +8,7 @@ top_img: false
 
 ```
 > 终于为博客安装上了便携小空调
+```
 
 <style>
 .copyright-box a {
@@ -18,4 +19,3 @@ top_img: false
 
 <div id="air-conditioner-vue"></div>
 <script defer data-pjax src='https://npm.elemecdn.com/anzhiyu-air-conditioner@1.0.1/index.3f125bc6.js'></script>
-```
