@@ -6,13 +6,13 @@ menu:
 
   友链:
     友人帐: /link/ || anzhiyu-icon-link
-    朋友圈: /fcircle/ || anzhiyu-icon-artstation
+    # 朋友圈: /fcircle/ || anzhiyu-icon-artstation
     留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
     音乐馆: /music/ || anzhiyu-icon-music
     追番页: /bangumis/ || anzhiyu-icon-bilibili
-    相册集: /album/ || anzhiyu-icon-images
+    # 相册集: /album/ || anzhiyu-icon-images
     小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:

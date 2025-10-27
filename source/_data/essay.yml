@@ -1,0 +1,18 @@
+- title: 即刻短文
+  subTitle: 咸鱼的日常生活。
+  tips: 随时随地，分享生活
+  buttonText: 首页
+  buttonLink: /
+  limit: 30
+  home_essay: true
+  top_background: https://oss.ojason.top/hexo-blog/15922439214976384.jpg
+  essay_list:
+    - content: ThreeJs API真多丫
+      date: 2022/10/19
+    - content: 歌曲推荐
+      date: 2022/09/25
+      aplayer:
+        server: tencent
+        id: 001FGQba3i10mw
+    - content: 做了一个噩梦, 梦到从楼顶坠下去了。😷
+      date: 2022/09/24
