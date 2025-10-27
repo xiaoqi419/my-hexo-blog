@@ -102,3 +102,20 @@ theme: anzhiyu
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
+algolia:
+  appId: "8MVR06Y6KH"
+  apiKey: "27d09e95a3ec2b65456d204bfdce47c4"
+  adminApiKey: "7a5ab9feec398bcb5d71accce9b3bb30"
+  chunkSize: 5000
+  indexName: "hexo"
+  fields:
+    - content:strip:truncate,0,200
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
