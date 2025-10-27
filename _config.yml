@@ -168,3 +168,9 @@ bangumi: # 追番设置
     top_img: false
     lazyload:
       enable: false
+
+# APlayer
+# https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
+aplayer:
+  meting: true
+  asset_inject: false
